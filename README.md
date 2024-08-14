@@ -39,10 +39,33 @@ LangChain library
 Hugging Face Transformers library
 PyTorch
 
+[Task 2 ::Build an agent-based language models system that can take in different roles to complete tasks]
 
-
-Build an agent-based language models system that can take in different roles to complete tasks.
-The input prompt should be a task that the system needs to complete.
-The system should create task-specific workers that should interact to get the task done. 
-The final output can be in text format. 
+#### Overview
+This project builds an agent-based language models system that can take on different roles to complete tasks. The system utilizes the Transformers library and the GPT-2 model to generate text based on given prompts.
+#### Key Features
+Multi-Agent System: Defines four worker classes: Researcher, Planner, Executor, and Reviewer, each with a specific role in completing tasks.
+#### Task Manager: 
+Coordinates the workers to complete tasks, utilizing their unique skills.
+#### Components
+Researcher: Gathers information based on a given prompt.
+Planner: Creates a plan based on the gathered information.
+Executor: Takes action based on the plan.
+Reviewer: Reviews and refines the output.
+Task Manager: Manages the workers to complete tasks.
+#### Usage
+Install required libraries: Transformers and PyTorch
+Define the prompt for the task
+Create a Task Manager instance
+Call the complete_task method with the prompt
+Print the final output
+#### Roles and Responsibilities
+Researcher: Gather information
+Planner: Create a plan
+Executor: Take action
+Reviewer: Review and refine
+#### Dependencies
+Transformers library
+PyTorch
+ 
 
