@@ -1,11 +1,11 @@
 # LLM_NLP
 ## Natural Language Processing/ Speech Processing: [Task 1 :: Build a chatbot that can understand context from a collection of speech data.]
-#### project :: Clinical Text Analysis and Conversational AI 
+project :: Clinical Text Analysis and Conversational AI 
 
 
 
 ##### Overview
-      This project leverages the LangChain library and Hugging Face models to analyze clinical text data, build conversational AI capabilities, and create a medical chatbot.
+This project leverages the LangChain library and Hugging Face models to analyze clinical text data, build conversational AI capabilities, and create a medical chatbot.
 ##### Key Features
       Clinical Text Embeddings: Utilizes Hugging Face Embeddings to convert clinical text documents into numerical vectors.
 ##### Vector Database: 
