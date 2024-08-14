@@ -39,7 +39,7 @@ LangChain library
 Hugging Face Transformers library
 PyTorch
 
-[Task 2 ::Build an agent-based language models system that can take in different roles to complete tasks]
+## Task 2 ::Build an agent-based language models system that can take in different roles to complete tasks
 
 #### Overview
 This project builds an agent-based language models system that can take on different roles to complete tasks. The system utilizes the Transformers library and the GPT-2 model to generate text based on given prompts.
